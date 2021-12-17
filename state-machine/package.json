@@ -1,0 +1,7 @@
+{
+  "name": "state-machine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Taras Yurts",
+  "license": "MIT"
+}
