@@ -1,4 +1,3 @@
-
 const alphabet = 'abc'
 
 const auto = [
@@ -37,6 +36,8 @@ const testStates = (firStates, secStates) => {
 }
 
 //=============
+// console.log('Graph structure')
+// auto.forEach(_ => console.log(_.join('')))
 
 [ 'abcbc', 'abaabc', 'babacba' ]
     .forEach(_ => console.log(`Is '${_}' word in the language: ${language(_) ? 'YES' : 'NO'}\n`))
